@@ -1,0 +1,32 @@
+    TEXT
+1-text_type
+1) VARCHAR(10)
+2) TEXT
+3) CHAR
+
+    INTEGER
+2-butun_sonlar_type
+1) INT
+2) SMALLINT
+3) BIGINT
+
+    SERIAL
+3-avtomatik_sonlarni_saqlash
+1) SMALLSERIAL
+2) SERIAL
+3) BIGSERIAL
+
+    NUMERIC
+4-kars_sonlar yani qoldiq_sonlar va butun son ham saqlash mumkin -> 2-misolda
+1) numeric(5,2) -> 123,52
+2) numeric(5) -> 45456
+3) numeric -> 414514 , 4445,445 xoxlagan sonlarni saqlash mumkin
+
+    BOOLEAN pastdagi qiymatlarni o'z ichiga oladi
+1) TRUE
+2) FALSE
+
+    VAQT TURLARI
+1) DATE sanalar uchun -> 2002.02.22
+2) TIME vaqt uchun -> 10:40:20
+3) TIMESTAMP vaqt va sana uchun ->  2002.02.22 10:40:20
